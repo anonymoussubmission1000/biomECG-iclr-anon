@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biomecg-reproduction"
+version = "0.1.0"
+description = "Reproduction code for ECG biometric pretraining and downstream prediction"
+requires-python = ">=3.12"
+dependencies = ["numpy", "pandas", "matplotlib", "scikit-learn", "nbformat", "nbclient", "ipykernel"]
+
+[project.optional-dependencies]
+training = ["torch", "h5py", "scipy", "neurokit2", "wfdb", "tqdm", "tensorboard", "seaborn", "umap-learn"]
+
+[tool.setuptools.packages.find]
+include = ["biomecg*", "third_party*"]

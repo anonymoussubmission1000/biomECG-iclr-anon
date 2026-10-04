@@ -1,0 +1,39 @@
+{
+  "name": "MIMIC_0206_V5_cohort500_seed23451",
+  "network": "SiameseResNet1d",
+  "DB": "MIMIC",
+  "phase": "train",
+  "seed": 23451,
+  "architecture": {
+    "leads": [
+      "V5"
+    ],
+    "fix_feature_dim": true,
+    "kernel_size": 3,
+    "embedding_dim": 256,
+    "dilation_rate": 1
+  },
+  "training": {
+    "batch_size": 256,
+    "device": "cuda",
+    "dropout_p": 0.11,
+    "learning_rate": 0.00029,
+    "n_epoch": 15,
+    "num_workers": 2,
+    "pin_memory": true,
+    "patience": 7,
+    "rate_validation": 0.2
+  },
+  "biometrics": {
+    "n_train_val": 500,
+    "n_test": 292,
+    "split_path": "outputs/downstream/mimic/seed{seed}/splits/horizon365d/split.npz",
+    "manifest_path": "outputs/cohorts/mimic/seed{seed}/biometric_cohort_cohort500.json",
+    "cohort_manifest": "outputs/cohorts/mimic/seed23451/biometric_cohort_cohort500.json"
+  },
+  "input": {
+    "ecg": "data/mimic/processed/ecg.h5",
+    "labels": "data/mimic/processed/labels.csv"
+  },
+  "reference_cohort_sha256": "3c0338b1d2a1a2c3570dea1e41f49fb4d9fba01af9cfe670a4f1a798af273308"
+}

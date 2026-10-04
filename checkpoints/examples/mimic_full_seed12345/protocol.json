@@ -1,0 +1,7 @@
+{
+  "site": "mimic",
+  "seed": 12345,
+  "horizon_days": 365,
+  "cohort": "full",
+  "test_patient_sha256": "b23bd302e90e08807e4edb6f65e7dd741ccb87395dfd1ea8cb8aafee3c45aafa"
+}
