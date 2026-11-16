@@ -42,24 +42,7 @@ study contains thousands of runs.
 
 ### Included checkpoints
 
-Included checkpoints:
-
-- `checkpoints/biometric/`: 151 biometric ResNet checkpoints, about 303 MiB.
-- `checkpoints/ecgfounder/1_lead_ECGFounder.pth` and
-  `checkpoints/ecgfounder/12_lead_ECGFounder.pth`: the two official initializations
-  used in the study, with network tensors only.
-- `checkpoints/examples/mimic_full_seed12345/finetuned/early_fusion.pt`:
-  one trained 12-lead ECGFounder model including its mortality head, for
-  MIMIC Full, seed 12345 (about 119 MiB).
-
-The ECGFounder initializations come from the
-[official model repository](https://huggingface.co/PKUDigitalHealth/ECGFounder/tree/main).
-The remaining trained downstream ECGFounder checkpoints are omitted because of
-their total size. They can be regenerated with the training pipeline below.
-
-For a Git clone, the large ECGFounder files use Git LFS. Run `git lfs pull`
-if they appear as small pointer files. A downloaded code-only archive may omit
-these weights; the figures-only workflow does not need them.
+`checkpoints/local_ssl/` contains tensor-only pretrained weights for the local biometric, PCLR, JEPA and CPC models. `inventory.json` lists each file and checksum. Private-cohort assets and external foundation-model weights are excluded. External model sources are linked in the corresponding scripts.
 
 ### Download and prepare the data
 
@@ -209,86 +192,34 @@ Use `--device cuda` for GPU execution. The same command accepts `--epochs` and
 `--patience`; changing these changes the training protocol. This example trains
 one model and does not supply all results needed by the paper notebook.
 
-### Evaluate the included ECGFounder example
+### New SSL and sensitivity experiments
 
-After preparing MIMIC and its seed-12345 downstream split:
+The local PCLR, JEPA and CPC implementations, downstream frozen evaluations, fusion controls, demographic ablations and censoring sensitivities are in `biomecg/study/`. Sources and protocol adaptations appear at the top of the model files. Commands are summarized in [docs/commands.md](docs/commands.md).
 
-```bash
-python -m biomecg.evaluation.founder_example --device cuda
-```
+The migrated study pipeline is an integration draft: full cohort preparation and downstream reproduction still require end-to-end validation. Synthetic model checks and strict loading of released SSL weights have passed.
 
-This reruns inference for the supplied finetuned 12-lead early-fusion mortality
-model. Metrics are written to `outputs/founder_example/metrics.csv`. Reference
-metrics are supplied alongside the checkpoint. Other single-lead and ensemble
-models must be trained separately with the pipeline above. Test membership must
-match the original split; a different split could contain patients seen during
-training.
-`--device cpu` is also supported.
+## 2. Redraw the paper figures
 
-### From trained models to figures
-
-Training and evaluation write checkpoints and patient-level predictions into
-`outputs/downstream/`, and biometric evaluation writes into `outputs/biometric/`.
-Once the experiments required by the figures have finished, run:
+The notebook `notebooks/paper_figs_and_charts.ipynb` only renders figures from supplied aggregate/per-seed result tables. It does not prepare cohorts, train models or run inference. No patient-level data or GPU is required. Run its cells from top to bottom; figures are written to `outputs/paper/figures/`.
 
 ```bash
-python -m biomecg.evaluation.aggregate
-python -m biomecg.evaluation.umap_identity
-python -m biomecg.reproduce --artifacts outputs/recomputed_artifacts
-```
-
-The first command computes the result CSVs from the new predictions. The second
-recomputes the UMAP coordinates. Both write to `outputs/recomputed_artifacts/`.
-The last command runs the **same notebook using these newly computed results**
-and writes the figures into `outputs/paper/`.
-
-Training alone does not update the notebook's inputs: aggregation is required.
-The `--artifacts` argument selects the new results. Without it, the notebook uses
-the supplied paper CSVs described below. Missing experiments stop aggregation;
-they are not filled with results from the supplied CSVs. The required runs are
-listed in `configs/experiments.csv`.
-
-## 2. Redraw the figures from the supplied results
-
-This route only renders figures from recorded numerical results. It does not
-load model weights, run inference or retrain models. No clinical data or GPU is
-needed, and a conventional computer is sufficient.
-
-For a figures-only installation:
-
-```bash
-python3.12 -m venv .venv
-source .venv/bin/activate
 python -m pip install -r requirements-figures.txt
 python -m pip install --no-deps -e .
 python -m biomecg.reproduce
 ```
 
-If the training environment is already installed, only the last command is needed.
-It executes [`notebooks/paper_figs_and_charts.ipynb`](notebooks/paper_figs_and_charts.ipynb)
-using `artifacts/paper/`: aggregate and per-seed CSV results, plus the UMAP
-coordinates and display labels. It produces 15 figures in PDF and PNG, captions,
-result tables and an executed notebook in `outputs/paper/`.
-
-When opening the notebook interactively, its default is also `artifacts/paper/`.
-Set `BIOMECG_ARTIFACTS` to `outputs/recomputed_artifacts` before starting the kernel
-to use your own recomputed results, or use the command with `--artifacts` above.
-
 ## Repository layout
 
 ```text
-biomecg/data/                Dataset preparation and ECG filtering
-biomecg/models/              Biometric ResNet
-biomecg/training/            Biometric and downstream training
-biomecg/evaluation/          Evaluation, aggregation and UMAP
-configs/                    Model settings and experiment grid
-checkpoints/biometric/       Biometric ResNet weights
-checkpoints/ecgfounder/      One-lead and twelve-lead initializations
-checkpoints/examples/       Trained MIMIC Full ECGFounder mortality example
-third_party/ecgfounder/      ECGFounder network and MIT license
-artifacts/paper/             Numerical results used by the paper figures
-notebooks/                  Figure notebook
+biomecg/data/       Dataset preparation and ECG filtering
+biomecg/models/     Biometric ResNet
+biomecg/training/   Biometric and downstream training
+biomecg/study/      Local SSL, fusion controls and sensitivity scripts
+biomecg/evaluation/ Evaluation and aggregation
+configs/           Model and cohort settings
+checkpoints/local_ssl/ Tensor-only local pretrained weights
+artifacts/tables/  Numerical results for paper figures
+notebooks/         Paper figures only
 ```
 
-`data/` and `outputs/` hold local data and results. Clinical datasets,
-patient-level predictions and patient split files are not included.
+Clinical datasets, patient predictions and split manifests must be obtained or generated locally. They are not distributed.

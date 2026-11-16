@@ -1,0 +1,1535 @@
+[
+  {
+    "family": "pclr",
+    "file": "pclr/checkpoints/code15_8l_cohort1359_seed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "d14d8686e298070be05821b0193e87cf73e8afa8a7933b2282e5a76b7d63952a"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/checkpoints/code15_8l_cohort1359_seed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "2e36980ab08928d2fb9321420fbc01871e3ee58dfbe4e22f68f747cfe7924044"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/checkpoints/code15_8l_cohort1359_seed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "3f360107ad870b421564230c175759e3a78513ec6a99f45bd63dc49291602fd7"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/checkpoints/code15_8l_cohort1359_seed45123/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "92aeeb4de88b24ff61b772fd5e36cc76fe94721746b1a6716776c80394864b86"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/checkpoints/code15_8l_cohort1359_seed51234/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "a9aa73916a652bf9d041c04f2515084f909c21fb35f837f3fe2a4fc74273aa4b"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/checkpoints/mimic_8l_cohort1359_seed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "4495944cd9d6327a7201f8bf7fdec9c255fd66e2746c91f03bbbc15ed4f80d04"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/checkpoints/mimic_8l_cohort1359_seed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "d7a3b963ec61eb3e82a0015b06eb3c12d946d70f53027a3acab76973cb97e0ab"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/checkpoints/mimic_8l_cohort1359_seed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "4221c75bce35b7919484e3be6cbd1d32cb8ce1930cb13cc22d8a07b4484242cf"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/checkpoints/mimic_8l_cohort1359_seed45123/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "0d0b588119896361d71bd6a52f96635916bb75ec59f246d243143e13b38b8c59"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/checkpoints/mimic_8l_cohort1359_seed51234/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "06485dee2ad322447a689693f25f315cf1777b122fa1fc96d1c64cabcde99e45"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed12345/I/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "5776ebd10fbc14ba9faf05008e4fe2f12ccffe2340d840d9713cc6ba243966f4"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed12345/II/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "ffa864fe86a2586a61b4cb3eb06c6889e1cd7f30aed9114e4580c4a56967d5fe"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed12345/V1/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "c3aab610a8e06a3e7966daf5e2a4ee8e4730ce9a9d21af6f769e41d64f1fc128"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed12345/V2/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "761139607de86c47e2f2ecc17bcdb6b467642573016b2a868383934107155f2f"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed12345/V3/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "ab98650cf5f5c8f3323cc3453b775b33ea7a1efac169333c3e249d5c35228e80"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed12345/V4/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "1a4abdf01bb72c42321f346e40b72bfbbaf5e116973354f27591bf8348be866c"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed12345/V5/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "26b0ffdf22bfc21161b19774d4a6cccc355b416a29528307337cf18b3679acaf"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed12345/V6/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "9a9131e2951f482ebd8d437fc5b8f7058d6e93ff08f2d7e6a6781bc7b827f57e"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed12345/early_fusion/trainseed123450/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "7ff19e93435d0f354974135cddee7eecfba54d66c33668853abbd854d5c56c99"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed12345/early_fusion/trainseed123451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "1f5c8764377cd037f969d03dc80bed62d3e10e44dec74d57383a838f5431832f"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed12345/early_fusion/trainseed123452/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "7fda3c37b5f70ff4ff060a5d91968444415045dbbaf22ada50a06527e6983d44"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed12345/early_fusion/trainseed123453/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "a338b85c79f84a57e7b020abd22fe9250677bf56706fb08f45a99b1553780070"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed12345/early_fusion/trainseed123454/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "dd4b6c8a5a88b5030826a6dba61f45b2793039d6ad5df5b08f7a259fff6a8628"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed12345/early_fusion/trainseed123455/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "51e1150370281328b05f6c26dc35be9e5ff0fd4930a64703f3bfa37e1969046d"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed12345/early_fusion/trainseed123456/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "187a5a8fa73298e9c9392ce5798a5e8f911c4bc88ddf6a114901ea010c752ca5"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed23451/I/trainseed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "38c4418116a7f6ed2b0f9ad274dc0ab7e3eed72ed10172e1f9a348cfe9b4d297"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed23451/II/trainseed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "b87455a80da94cb01a94532eb7963a5a6f83a566735329b20d719c6e42233714"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed23451/V1/trainseed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "9dfeaa78fe86423e2e334f071415a0a5c890844b1568d63599ec4e4eebf0eb33"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed23451/V2/trainseed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "e357f7d1faabcfcc9e54cb680bcd2242a1e6be67217b14da390b34f221927f27"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed23451/V3/trainseed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "598099962f77a804a3ff1705ce4cf62c8a34559f3c4a0cc9106cff0521995380"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed23451/V4/trainseed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "3440e9313a78fe1046882e085814d3ba4f882d6843dcee0ff98f60926f9e7b9c"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed23451/V5/trainseed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "0d33a267ae673cbad3e0e52293d35e08923f8cfe98aaa378bfd1ddc24f092869"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed23451/V6/trainseed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "e3df61fee5e4639915bdb31b335fd0393b4ce49999badd4f65ee91e292402210"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed23451/early_fusion/trainseed234510/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "5d37c3656da1a6c043066079cb9ed6be5f0dba455ad0036556dbef914de2d7be"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed23451/early_fusion/trainseed234511/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "de2fd014aa05764bf14006b95dbb71a6bc68a5c6c62d449bd01dbf6577f95aff"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed23451/early_fusion/trainseed234512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "acf521dac6d9ab6eec2a01f924279bb8db5ba98acb07036a06ef08561adc4760"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed23451/early_fusion/trainseed234513/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "830df161105c50fb292442704a463b7c2888a7aa8d89e623daf3704ffc5f5f12"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed23451/early_fusion/trainseed234514/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "8123d92e272da8bba049b15c25d6c24da947a2b249e059e34b1c95e5121a3344"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed23451/early_fusion/trainseed234515/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "fdb61aa41dc54f4cecbfa195740eb1aa6f9c85edd18016e18e138c99a31edcfd"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed23451/early_fusion/trainseed234516/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "9a4c4933d87c973e30993492c489144c2b53fbc32796cbb46526244c310dcc57"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed34512/I/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "a635846d07adf4ae0e6ab001eb5e7a4235d6446a292134ee9822a1bdc7696083"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed34512/II/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "50c5d248899e70136a752ecb5ba139bd498b8c23d333edf69db5775fd3ddb351"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed34512/V1/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "f4aec5152d997e5e1b209f78bd3dd1add0a84716c3aaa8abf24d6a34b49a4e4b"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed34512/V2/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "f981262d22fcccbf84a5878ef727645c05e71ea91cc74f01ece686cfa6d5784d"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed34512/V3/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "91fe29a5038247f4682df2d0b8afbaa8704bbf4bb55aa78b710f6d0956da2918"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed34512/V4/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "1ec8d68c8bf86d875a5c7a45ad57951d0c51b1ead90b698640d4d8fa6cd7c9c7"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed34512/V5/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "87cebcab3c6e019696fa16c81dfddfc4d4a0894d13a96ee4de33ef87cd618204"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed34512/V6/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "662d4cb3ed0f30400d27257e1ac364ce7ca354e3ca4f5d58b784a54f8234afe2"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed34512/early_fusion/trainseed345120/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "364ea3e0e98ad2f6441140b99c39e4cbd279843cb98df990b206c96019b906a4"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed34512/early_fusion/trainseed345121/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "2acc7ffd55dff93e659d0daaae0d7a1285bdb04484b960fb73652db51289024d"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed34512/early_fusion/trainseed345122/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "c7579a2a3ba975570d1d1053029963fc9a72c38c88fc741beb4e662ecb9eb7aa"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed34512/early_fusion/trainseed345123/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "0b456a03cdbfcb8a4828c63cd4ede30ec9677ecf47c40cb07bf78b4c6f90fb2e"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed34512/early_fusion/trainseed345124/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "269efda99ff5d029105aa716888f3216506033796a228b3a8d7071a46f58162f"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed34512/early_fusion/trainseed345125/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "a7366f62f1318d9aa75523cd2164c5f2bd5f18fe9b1c503e47b12f8ea2048e9d"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/code15_cohort1359_seed34512/early_fusion/trainseed345126/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "2f8a9abcc8610506eb90dfd18884106b47e2eb854ab88cad8a6d260412ba66fa"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed12345/I/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "3d056598fa55daa4174ce5e1dabfe312c07c8ac5f66064376b7ca7c4d82c0438"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed12345/II/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "37a7c375e4a872c979ef7749f18bc6aa0ffa2492523cae4cbf5612d887384eff"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed12345/V1/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "35c970f087a77665739943f16b27fcaa5cb1ea20d2380f8a1272c68f037efae9"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed12345/V2/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "6ddacb32a6574cb115b51ee910f8e6a0e812d3ef2bdce7c27f59a516da1be23b"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed12345/V3/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "6908dbfc3bc37a50941b454e9c213b24390e868d67d20aeff7483a6f7e33dc0c"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed12345/V4/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "9bc227280fae05d6d8f2da064e81fe77d56caed365be887ecb7a2733c6f26090"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed12345/V5/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "e06d315553bb2a069515599f3e817b6d53f59083ba931bfb32e94afd9eff6dc8"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed12345/V6/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "fccb96dc23a6d8305d1bf02f711c60f7da594eaf0545b34adb74d3b156344703"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed12345/early_fusion/trainseed123450/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "31c6ed9c613ed1e55117fad94a7bc945153acd61a24a051f379b48e2c4709125"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed12345/early_fusion/trainseed123451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "178409a99fd994de0f45ba456401c77eabe863ccecacde487e6ddc72aa382d1c"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed12345/early_fusion/trainseed123452/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "5bec0c9ed459fe12822df5049b5d1969b9af3f45c5cbe6808834832adcda4c62"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed12345/early_fusion/trainseed123453/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "0acb4e23f243842fe0bdd343287ca43dda1bf427c63cb3ff46724acfcd47e3c6"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed12345/early_fusion/trainseed123454/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "a758f1419b958eeb37a9ddd8a7ea8b3b8c8118704ae4d0fbc423603ff677c1fa"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed12345/early_fusion/trainseed123455/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "501e44a584171be8bc8c1123c97bff10bdd9f5513d26b79e6fb9dc5f56654d5a"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed12345/early_fusion/trainseed123456/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "8ffbefb100306079a30deed14a3b1d72a03e073af2e3f1351036b2ae437c8ac2"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed23451/I/trainseed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "a3ea679089a3b89b0a9aa8eb1d3634dc1ad06329b8a9dd751aec124d364433bb"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed23451/II/trainseed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "41c0c0f56db65fe7277099e72b70fc4e58146218cd7ca81edf0d5622654468b0"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed23451/V1/trainseed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "d5f775daef90adc19e4ea98ee3ed5431af07e0b2bf2bb409d399582643d5ff80"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed23451/V2/trainseed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "7da460c918e1f8ebdfdc0a6a1a20793818aa5e75c0ec3d19d73132608ddbb354"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed23451/V3/trainseed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "c0235b642aa8573a1c8225c32aa165d9af6b10c3da5600931f371f9771383975"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed23451/V4/trainseed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "f8fc849a3e05ae34fa6859e858eac052e4d4e7f8f765d63fdc83b237e4dd1d56"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed23451/V5/trainseed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "f35bd6ad36e6372c8b953f9d1e2d9612f98d91ff168f71fce74a9529e90305b2"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed23451/V6/trainseed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "de995e39f343c7b2ee0245627f347bc199210aae8087e4183cec7a5f00a84c1e"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed23451/early_fusion/trainseed234510/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "f9361cc1e7c59fe00ba072df556708896d257c00b1f6d52ca7d30716c328abdc"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed23451/early_fusion/trainseed234511/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "82566b91ce84b824a26bcae8dca4103ea67acc30ee6110f7fec721bae9b52321"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed23451/early_fusion/trainseed234512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "8a09b60c2fe6122d65b8491fc8cd601fe69852ee84c1312b011182507a799c8c"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed23451/early_fusion/trainseed234513/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "ab4f1f6690295de401903e1a6791926dfffc67015a51b07bd0e7cfe7448d7fd5"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed23451/early_fusion/trainseed234514/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "998471c034364647625cffe6ef84bdfa1ba802c8f81f03dd78dfbafe9ba1aa9e"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed23451/early_fusion/trainseed234515/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "d1bfe39b8cfe5cac4dc209052ee59167a75b555ddba6c301d29dddf91702aa2f"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed23451/early_fusion/trainseed234516/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "5e3f78be6e90d2d428ff8d66c9f6166a880709a4a1cd1a897c8fe2a113aefa45"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed34512/I/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "528c13614953ba5235657a9b2aaf302416227e9df991f7473996f4634ea9289b"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed34512/II/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "4dcd299b38f113593cf408cf93843cbb62150667e600fcc2d0b431f05c402dbd"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed34512/V1/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "ad7a41a5486fc1a846e2257a59f2321e47138b123d52979cb72adba6c8f97a76"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed34512/V2/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "b2b4cebd7090d64d451385eb9df5fae7bee0ec5fc583660233f0e76be21146f7"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed34512/V3/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "860027dcd497e297585f40f9add0368499c195bfb49d76deab1886133fa98c39"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed34512/V4/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "d2f79892a4abc3979b9432ade3b0a61346065f61f11cf6377ec479b90c75b1f1"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed34512/V5/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "c4033b513e015b1d76977afed40d9c39a83f94bbdd31f3443013a553b04c22f2"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed34512/V6/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 313044,
+    "sha256": "ecf607a35e8c9428ad9ed7f9b4129e7c395eb00f159ec430e20f319d45c698ab"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed34512/early_fusion/trainseed345120/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "07b2fed7b1c79b430ed6c0c1d93df733aa83e933244b4e5f7fe008a05972822f"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed34512/early_fusion/trainseed345121/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "4bb9bf2775c0d1976a6d7b6565104c575d8bf7d43a419ea4fafebbc2137ecc83"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed34512/early_fusion/trainseed345122/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "778ee5ea48cb34cee65b26c7b440f07b0035f2b25f1a7de0bf979d5ca328df1a"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed34512/early_fusion/trainseed345123/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "2a6f853cd343bf2c81cc77b5039bda2f6a27dd8b918192bea27dceee0460fb3b"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed34512/early_fusion/trainseed345124/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "72400a052a161d794872dfe58e9e45da0b55e0057e64eb648bbb63c76f518e10"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed34512/early_fusion/trainseed345125/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "00252a800e6082be7c086b5d3701b042697e391674805f35ffc804c97ff1b529"
+  },
+  {
+    "family": "pclr",
+    "file": "pclr/ensemble_checkpoints/mimic_cohort1359_seed34512/early_fusion/trainseed345126/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 314388,
+    "sha256": "a7d492d65ee9c2e3690aed93c7f8b4b6e0f9de2a898ce53b1b68ab3ee4b7e7d1"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/checkpoints/code15_8l_cohort1359_seed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "be85c040f6edccc812fada0fbf0c3cc78d7a2d7bc40b3dd7715e190267703b52"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/checkpoints/code15_8l_cohort1359_seed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "eb10ec1f4dc96555cf779925fce2f9f9f5d38d63cb74a37791fb1e3b7a8bbf7c"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/checkpoints/code15_8l_cohort1359_seed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "3b75f2691deec012219665abc86f5fd0bd2b8cfce8ba01de2434b36fb41e85db"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/checkpoints/code15_8l_cohort1359_seed51234/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "8d52b5135ed59ec53e50f183bd357c078813539d9853061a3d734d480485371c"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/checkpoints/mimic_8l_cohort1359_seed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "1a3e13220d1898eef5442642e1a779943f16ed36b84fa430969af75032324203"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/checkpoints/mimic_8l_cohort1359_seed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "7302dfcb066f4b2d753299b013502db16d2b292fa33395f4bb2efc8a9fb0a024"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/checkpoints/mimic_8l_cohort1359_seed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "9588ee656b1882c8498b0f4f9c41e3b584e36053769dbea9d94e28253bf1b4a1"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/checkpoints/mimic_8l_cohort1359_seed51234/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "0e6c8597260bed7e895257315bb134f1e0e74877f12787b345c703880b6f075c"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed12345/I/trainseed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "2fc2291f7728c2cebac1b88be302d760f03da2aef2032a4e9c59f7274ac87b0c"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed12345/II/trainseed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "b7e37dcd9e0054b67cec1d1b4c590c4aa281751724c2a82ef8915d0945c072c0"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed12345/V1/trainseed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "74353533a918a86d598b8423037fc2f18aee2fa3967e5731dab9ff33f55944f9"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed12345/V2/trainseed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "b7d4ac05926f28f3bf9dd1e807997ee4ac476cc069514e8d850748d9f4e9eb7e"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed12345/V3/trainseed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "183d45907fa688f3632fa2792e0d9ac27b032f76b4a30c56680a510feab73065"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed12345/V4/trainseed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "1008c850ed9d964951a6e14cb88d587f3e6f8fa7602575e9cf903366a1c95557"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed12345/V5/trainseed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "2f996838daa7c4d75b2e789e241d65803b11ef45b1defdcef8a55633b11f4b41"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed12345/V6/trainseed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "d6624a216204e34a42609b963358581cd4a9e8ca085b4bbd6af2dfae291545e5"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed12345/early_fusion/trainseed123450/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "85dccc36eca1a595c23ef34aa99d6932e4150ea5e557a93dc36fda11b73cdafe"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed12345/early_fusion/trainseed123451/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "da8d2029dabe2bdd6f51e05c9f6886851a2ddbb87ab534a5debcb67fd3f8b265"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed12345/early_fusion/trainseed123452/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "545fa951a991868a8430a7baa291a2f32b2ebe124bc64e1c5340773a37e3a0a7"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed12345/early_fusion/trainseed123453/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "16c1373e15a6d55470ca3c413d5a4abe2b79497d00af98df0a4bd5354aee382a"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed12345/early_fusion/trainseed123454/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "f1987a9672e82f8c4da2b206f4d587e57147b66dcfdd0d911211e747591846cb"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed12345/early_fusion/trainseed123455/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "47d51703bba43e69720743953d200d9a478885b0c990206ccf6cc2641ed95267"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed12345/early_fusion/trainseed123456/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "2a13d53ac03c6ed8d3d6d083200e0c492986af99b356b15e379de59eceb56d91"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed23451/I/trainseed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "846bad2938c2fbdc04418805616f622d9c658723b9f91548b411f621defcd862"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed23451/II/trainseed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "73993b8fb744b78f1d097e1e13cb9ee05c9ad3ebcaccff57f199d4eeb4f487a9"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed23451/V1/trainseed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "14f7e7356743632dab26e33f65b26f46932fc70e101bbeea23740dbf823b43d0"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed23451/V2/trainseed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "98ba5c66a89e45688e254d49aaa2d5ee99b2bd470c27c94196fb4e5c92bff588"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed23451/V3/trainseed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "4aefa0ed38ba87850d585b848f4e8ed1eb3db71e408ea012916d186afaf53e49"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed23451/V4/trainseed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "bb02db873dfee13871d2289c84bce9697f0792ad3d43336bee970fe7c1838f5a"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed23451/V5/trainseed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "eaa21ee96ec5aa71f50861a0d3cf15c3c093184acd7ae121d88598bc6ccbf200"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed23451/V6/trainseed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "7530156b3d8cdd632de39e4d5f5fa154a3efd4fed5eb760a70749c1016ccc94f"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed23451/early_fusion/trainseed234510/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "5986200d75b34bbe59bc39db89968a3bf3baeebfc55678e90fe0ea638035569c"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed23451/early_fusion/trainseed234511/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "1e7af0e3a3480c089e19662b256aa66d0f1e62b5c67027c208394ee0a05a12b2"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed23451/early_fusion/trainseed234512/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "f723fdae128a5500e8036facdd794a6b2eec9f63a7a90800ff2f7c93f944728e"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed23451/early_fusion/trainseed234513/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "23405b4b0e9f2831aa05f180f25fe4038b72a0549d08fb64ea776bbb93d0290f"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed23451/early_fusion/trainseed234514/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "13d3f51d3b94dc36c9fb9c8abfaf645359c553de2ae43fb0ebce500adbdae116"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed23451/early_fusion/trainseed234515/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "5443d7224a40c6561515d8e2e00c72bf0b4d4e3d6fa7b7f2bc2db1886578b2c8"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed23451/early_fusion/trainseed234516/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "1325e1b20fd9920a26b6989c53da680ebb790bab5e580b8709844d9fe93202d8"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed34512/I/trainseed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "715f252837e6def6fa2077f58139f3d4c5f265b8d5698ebeb0bfeeb643d33545"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed34512/II/trainseed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "f718e6d036b1d3ffae12e6858794e635df76dcb375e8dd77c0af1ff16b227fc3"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed34512/V1/trainseed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "cd8b56c42d41e6eb6f1bb70078e4b2ad17c4206addf07289ba5e2976d3bc67db"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed34512/V2/trainseed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "fa955468383408a0e399764b020ba451719dc9f915d5874d3ac7c3274e2fb37e"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed34512/V3/trainseed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "cf08187f79e0c02c58986fbc4f445b0cabf0931abae7bbdc1516c513fffe71e6"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed34512/V4/trainseed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "fa94bcc999367bfaabbb592179c91d6c6effc4586e7bdc20aa17cca3244a2f9c"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed34512/V5/trainseed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "56b4fef38e0b42ed03ded8dcfc6f25fb6c3cdb6c778b79001da9e594c49357ff"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed34512/V6/trainseed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "73581f91a84cdeb84f293138ff2c5315bc82b43c20b5d3432645184951a4147a"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed34512/early_fusion/trainseed345120/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "bbaa12e7e077aa97df88a0d250366d5d1b3e2cefc7f83f3a8f728c6fccec4deb"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed34512/early_fusion/trainseed345121/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "1f674199843d2186089d89d41683b830f440e53ee5d4b7bd6eaf881472bb2e21"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed34512/early_fusion/trainseed345122/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "cf6e9602bc60ba0543a18d88b5f11915419d922f93dad76c0440031829dfb77d"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed34512/early_fusion/trainseed345123/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "329d19ea4782ad41d49667c0978342e96991fe218dab87f57253c7a553da2a88"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed34512/early_fusion/trainseed345124/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "5841b7e29ee6f494ccc98a7bdf8fc84c1bedd56a2ecaec6e3716c85a1bed1c58"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed34512/early_fusion/trainseed345125/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "84f99b4ecf6ea71c370c7689505d7a0c28d2bd9f47d00ab097ecffdf5c8d639c"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/code15_cohort1359_seed34512/early_fusion/trainseed345126/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "709f9f1f49046e853838cd9026783879d43da6503c172888e3f6529cd418b4c3"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed12345/I/trainseed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "ae83e0b32bb42329fff5f77006bb062abe85f681e0fda80244928c0e2b6caf24"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed12345/II/trainseed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "f89d13840df24678e4310f5af048a073655fb071dba7122613420f8e24716f9f"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed12345/V1/trainseed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "4a50c5701ae1998119d3cd9b50d25f10006ed9930c763516bcbc1b9434d42d13"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed12345/V2/trainseed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "553826c2f0af847178e88a594327d75c1e668e09016de8563f234658a42812ab"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed12345/V3/trainseed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "039207f761eea15b8ac43f0b6d8ffcb7062d1f1d33ea3e4298195e235151dbc7"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed12345/V4/trainseed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "0deb1433a54f8dd9b80939742c85f1ed0c90e0816e1afd650698373c52849469"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed12345/V5/trainseed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "88c67912bfb8a241c7d4f714e5cbd2fda53795178daac48d26f9edea426a6144"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed12345/V6/trainseed12345/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "ea8b4edfbecb0eeea1653e543181ec5b5e2c4eee0b3c3d5ef39050af557a35f6"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed12345/early_fusion/trainseed123450/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "9ed217f7add64e08eaf71c8dfb6d61e6154fa40f72801030c7ac32af5f4b8ba0"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed12345/early_fusion/trainseed123451/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "c48c7e9efad45d149bf3e1b82586c414d513c044af39c5c77b70364a0a389b7d"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed12345/early_fusion/trainseed123452/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "2d6f030c6946b384784d0cdf4882b228d0af24c8c6251dce1b6071e17a2ed44a"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed12345/early_fusion/trainseed123453/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "b43e404a35f338e85985b61953a00ee2de0884485ac661170a925e5187395021"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed12345/early_fusion/trainseed123454/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "884be336305fb520464a8e1933b8361f893be869179f604dac2212d3c50fa937"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed12345/early_fusion/trainseed123455/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "37c79b89991be96338660139abe989c3dd0841ecc60f705e8e7495bafae59861"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed12345/early_fusion/trainseed123456/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "e58561db57ebb0909ad58210fc7291544f2c99d4cc410a11a191cd22e8c17db5"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed23451/I/trainseed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "aff71940a977362772e14b15956e1972b2d9d70714ca7c6e27eb7c97959b4fce"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed23451/II/trainseed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "d88465bf293cc0c2b666d239f7a98d21caa61ed9cf30ceaddfb3258172c7ce51"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed23451/V1/trainseed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "0c763c5a9dae8aa1592cd50c4a0add71d844aaaba2a225a14b9f34ffc6d6afcc"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed23451/V2/trainseed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "b2c1eb2946db68e067e754f7082296c9f63d143abee80fac12db8b8291064b38"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed23451/V3/trainseed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "5099996e4466c9d40136bf6930de8c55d2eaa857d9f4d8bdcbbc0b2995aec897"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed23451/V4/trainseed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "a1249382d68640397ef385cf56720780ff633a016d3a92a8876a0441249dc2bc"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed23451/V5/trainseed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "e49568d9a6641ceb937db8a2903dd107510fce17893fbca57d7b0c22c9a3193c"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed23451/V6/trainseed23451/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "03d05611c23a3aa2215138ceb2865a9d7b98993f25369c9f19c914de3befb205"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed23451/early_fusion/trainseed234510/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "462ed1f4f014906c45e58bf99e15b1d8b5da99d58d2fa68059b21f5242891d1a"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed23451/early_fusion/trainseed234511/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "656f2c6cbdeacfd5692729bae13d3a7b1c1c88f95d60efc569dfb2d6def3b640"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed23451/early_fusion/trainseed234512/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "4a20e4cac88573ed47ce199de3547d45f2c32d78f66e7c3c306029d8090741d1"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed23451/early_fusion/trainseed234513/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "b97b3353c9c5a5d9407c2ba868e57851a9165e5cc78d6ee0446b57f0c328f425"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed23451/early_fusion/trainseed234514/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "00a30ffc64b39df04ea7107fcef81fda64afa75faa3af22a56b033a716997153"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed23451/early_fusion/trainseed234515/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "5c4f491f9f5f0b65744aec237ed936514f5d90c57ef7b5c34573ce1f6122e5e6"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed23451/early_fusion/trainseed234516/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "6043edf88cdb544a5131088b8abeceb1c626eb50dd49f34d70c3999e824d4303"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed34512/I/trainseed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "4546956faf7f364d632a678c2105ddba5a49b3ce58df47b5604e6f04900238e7"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed34512/II/trainseed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "b60b246e2af51af7d317ecfbfcf523d5bd1ab63f355bde18638e5721125a8123"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed34512/V1/trainseed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "4edcf0a88631e39db39a6b12cac4ee8791f03dae17d82cadbbc5c47bfc5faf0b"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed34512/V2/trainseed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "6a3a6d423994b9f8fd2c5d8ec2a15f9f537424c4480a7f50d87e5b9cfdacb3bd"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed34512/V3/trainseed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "3c5acefeafb63c22789be13bcec728d4ebb27e49f78a2715e8f6819dc600f9d0"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed34512/V4/trainseed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "42d474cb7f462c169385a56f0fffb01b475e3447ac288767fd76334fe84d383f"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed34512/V5/trainseed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "161ba36ed38889aab5e3b6b546946c894ceeb1f7fa4602b16b2d816f79c39115"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed34512/V6/trainseed34512/network.pt",
+    "kind": "encoder",
+    "parameters": 214228,
+    "sha256": "ac2e32cbcf5b991de7b7a13d238dd025b09b7d4d7544f05122836dfe9896bd6c"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed34512/early_fusion/trainseed345120/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "c9d72c68050c4a80048d79d95e1e9e94102a836046037084a565828dffbbc693"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed34512/early_fusion/trainseed345121/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "8c782e1a8eb510494b63638cc659df06e470aeceb7d31713160a908f0c073d90"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed34512/early_fusion/trainseed345122/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "c638271e20de325e8fda832b5de6d611ec3f5448d7d2e8eb1d80517513f04bf1"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed34512/early_fusion/trainseed345123/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "98f3e3fb0ecdb3f982823f81b60248568a5d9a545be3292b2991a09cede7d11d"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed34512/early_fusion/trainseed345124/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "40bb1cdeceac951bfe4803ab1158434f277bdab5436842284097d37311eb691e"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed34512/early_fusion/trainseed345125/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "3d301cc700e3bd506be4def14cfd81688e5cb9e49dfb04508dc69deb9031b318"
+  },
+  {
+    "family": "jepa",
+    "file": "jepa/ensemble_checkpoints/mimic_cohort1359_seed34512/early_fusion/trainseed345126/network.pt",
+    "kind": "encoder",
+    "parameters": 215572,
+    "sha256": "faab2b7383fccc861fea88894156ac5d509a77b5c5fc78cbd2d1ac82fd292472"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/checkpoints/code15_12l_cohort1359_seed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3274436,
+    "sha256": "653971fdc4f2d260584325ee2adf2d35f14ed745429127c2f8b68644b9d81316"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/checkpoints/code15_12l_cohort1359_seed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3274436,
+    "sha256": "59dbf86afd51142403db33089447c688dc7a30f0eb9f748b8477b9bdbe984451"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/checkpoints/code15_12l_cohort1359_seed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3274436,
+    "sha256": "9ff077f127627009249e2e3017293d2821945abf2221896ce3565a586c7a2a2e"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/checkpoints/code15_12l_cohort1359_seed45123/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3274436,
+    "sha256": "625137adc4958a6c7d775f36f3383b93f889f5965128091a90d82b7b9b7227a0"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/checkpoints/code15_12l_cohort1359_seed51234/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3274436,
+    "sha256": "caba251ad208662571e956f9f3b395126ce5917064c0baebce8d82f6d5865bf1"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/checkpoints/mimic_12l_cohort1359_seed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3274436,
+    "sha256": "26fbf985ffbf1c20a1775b5c332f1a81bf04431fd761b3132c80289d5d9fea05"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/checkpoints/mimic_12l_cohort1359_seed23451/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3274436,
+    "sha256": "240e9b5dd6481da27bf2931ef9a6d987aadea7b9c556df33c237c342649c327b"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/checkpoints/mimic_12l_cohort1359_seed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3274436,
+    "sha256": "c63d61a467a42a1e97dfb986848429b419ae1357c970f9095d21ecff632c725d"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/checkpoints/mimic_12l_cohort1359_seed45123/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3274436,
+    "sha256": "f40924bd6b84359123c96ff885df9c4fab223fb911fcec8f02706d7e9db82cea"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/checkpoints/mimic_12l_cohort1359_seed51234/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3274436,
+    "sha256": "69b116a1b6e756b953b0b732de900e66187036c35b3dda632c11e83b88360381"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/ensemble_checkpoints/mimic_cohort1359_seed12345/I/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3257540,
+    "sha256": "220a35ec76f49196b29e2d4df5fd0f246b66b8a362d308a42fb930cd901f0005"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/ensemble_checkpoints/mimic_cohort1359_seed12345/II/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3257540,
+    "sha256": "d8995e9e325ffe5f9705c7edc42adff083ca0749b268f5dfb29358c65785fa04"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/ensemble_checkpoints/mimic_cohort1359_seed12345/V1/trainseed12345/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3257540,
+    "sha256": "dab6647ba0dfa85ab55220b9a35325a697a9dcb311ad52cb9841979e9140680e"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/ensemble_checkpoints/mimic_cohort1359_seed34512/I/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3257540,
+    "sha256": "813139c9b523e7fe708cbb20fc1ad0aae904ebdea9c613cf4ba96dc23777ec9f"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/ensemble_checkpoints/mimic_cohort1359_seed34512/II/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3257540,
+    "sha256": "78ada79f1c7123b840c8fcac483eeccaf1543be7a9cbeced39834b9e8e485306"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/ensemble_checkpoints/mimic_cohort1359_seed34512/V1/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3257540,
+    "sha256": "abd6fdfaff285a7af29157d857a047c62b595e32aa2e163ca3b9c28e0dd62c69"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/ensemble_checkpoints/mimic_cohort1359_seed34512/V2/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3257540,
+    "sha256": "e4bb4939390bcafa8696eee919ce47a3fab2b0360892a293beb0a754b7a53c9c"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/ensemble_checkpoints/mimic_cohort1359_seed34512/V3/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3257540,
+    "sha256": "b25d20b06706fc050a130bd3eb6bd0c83412bb973e236bdc0b86a11a1a37abb0"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/ensemble_checkpoints/mimic_cohort1359_seed34512/V4/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3257540,
+    "sha256": "787c0808f0f0bf0a6fd2a743808ade4a1555075ea384a435c6d54a9ca6d1ccf7"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/ensemble_checkpoints/mimic_cohort1359_seed34512/V5/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3257540,
+    "sha256": "c5e823584c32fad9c4c7394345a116a9a24b094c2816f21ab939b7404b14564f"
+  },
+  {
+    "family": "cpc",
+    "file": "cpc/ensemble_checkpoints/mimic_cohort1359_seed34512/V6/trainseed34512/network.pt",
+    "kind": "pretraining_model",
+    "parameters": 3257540,
+    "sha256": "cf0046eb98ba38c23d6a118278684344280361c6550f8012f2c74a47f4c2370d"
+  }
+]

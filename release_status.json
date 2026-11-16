@@ -1,0 +1,25 @@
+{
+  "stage": "integration draft, not publication-ready",
+  "excluded": [
+    "private cohort material",
+    "patient predictions and identifiers",
+    "external foundation checkpoints",
+    "Git history",
+    "virtual environments"
+  ],
+  "text_identity_scan_findings": [],
+  "verified": [
+    "Python syntax",
+    "PCLR synthetic forward/backward",
+    "JEPA synthetic forward/backward",
+    "CPC synthetic forward",
+    "strict released-weight loading for PCLR, JEPA, CPC",
+    "ensemble and sensitivity CLI help"
+  ],
+  "remaining": [
+    "end-to-end portable cohort preparation and downstream run validation",
+    "complete dependency installation in a clean environment",
+    "regenerate paper figures using anonymous aggregate tables",
+    "final legal/source-attribution and release audit"
+  ]
+}

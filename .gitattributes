@@ -1,3 +1,2 @@
-checkpoints/biometric/**/*.pt -filter -diff -merge
-checkpoints/ecgfounder/*.pth filter=lfs diff=lfs merge=lfs -text
-checkpoints/examples/**/*.pt filter=lfs diff=lfs merge=lfs -text
+checkpoints/local_ssl/**/*.pt -filter -diff -merge
+*.ipynb text eol=lf

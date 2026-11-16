@@ -1,0 +1,3 @@
+site,seed,epochs,train_ecgs,val_ecgs,steps_per_epoch,total_steps,median_epoch_seconds,total_epoch_seconds,best_epoch,best_val_loss,last_val_loss,last_train_loss,budget_epochs,stopped_early,complete
+mimic,12345,200,7792,1761,122,24400,4.242140337490127,857.735432380141,197,0.3170303826065377,0.317222031001541,0.3164528000036549,200,False,True
+mimic,23451,200,7770,1741,122,24400,4.436459909498808,886.8777493717789,194,0.3262052914659433,0.3293000053462456,0.3205354800632408,200,False,True

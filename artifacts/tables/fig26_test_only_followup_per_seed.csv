@@ -1,0 +1,81 @@
+site,seed,cohort_label,family,variant,condition,test_patient_auc
+mimic,12345,8000,biomecg,late,Original,0.8238723896452624
+mimic,12345,8000,biomecg,late,Restricted test,0.7972761756573155
+mimic,12345,8000,pclr,late,Original,0.7888156593484219
+mimic,12345,8000,pclr,late,Restricted test,0.7633708223291533
+mimic,12345,8000,jepa_resnet,late,Original,0.8278220907265471
+mimic,12345,8000,jepa_resnet,late,Restricted test,0.8013958467296489
+mimic,12345,8000,ecgcpc_local,reference,Original,0.8294448720788318
+mimic,12345,8000,ecgcpc_local,reference,Restricted test,0.805020673900237
+mimic,12345,8000,ecgcpc,reference,Original,0.8345495392030597
+mimic,12345,8000,ecgcpc,reference,Restricted test,0.8106296419258507
+mimic,12345,8000,biomecg,early,Original,0.7901689626759492
+mimic,12345,8000,biomecg,early,Restricted test,0.7636521574375178
+mimic,12345,8000,pclr,early,Original,0.7430621941426697
+mimic,12345,8000,pclr,early,Restricted test,0.7129921349153007
+mimic,12345,8000,jepa_resnet,early,Original,0.8067867058419262
+mimic,12345,8000,jepa_resnet,early,Restricted test,0.7804585309995793
+mimic,12345,8000,ecgfounder,reference,Original,0.8095861463776558
+mimic,12345,8000,ecgfounder,reference,Restricted test,0.7851310279139384
+mimic,12345,8000,ecgjepa,reference,Original,0.82355512746543
+mimic,12345,8000,ecgjepa,reference,Restricted test,0.8000816084395681
+mimic,12345,full,biomecg,late,Original,0.8353653106630902
+mimic,12345,full,biomecg,late,Restricted test,0.8095001211999465
+mimic,12345,full,pclr,late,Original,0.833065746622296
+mimic,12345,full,pclr,late,Restricted test,0.8072464299517812
+mimic,12345,full,jepa_resnet,late,Original,0.8347644653597917
+mimic,12345,full,jepa_resnet,late,Restricted test,0.8087400356023952
+mimic,12345,full,ecgcpc_local,reference,Original,0.8488998478745734
+mimic,12345,full,ecgcpc_local,reference,Restricted test,0.8248823561554949
+mimic,12345,full,ecgcpc,reference,Original,0.8531554860402817
+mimic,12345,full,ecgcpc,reference,Restricted test,0.8297007352891871
+mimic,12345,full,biomecg,early,Original,0.8298516982174254
+mimic,12345,full,biomecg,early,Restricted test,0.804046979638837
+mimic,12345,full,pclr,early,Original,0.7966086580240466
+mimic,12345,full,pclr,early,Restricted test,0.7686083863514735
+mimic,12345,full,jepa_resnet,early,Original,0.8339779522951434
+mimic,12345,full,jepa_resnet,early,Restricted test,0.808098410647105
+mimic,12345,full,ecgfounder,reference,Original,0.8409717228090612
+mimic,12345,full,ecgfounder,reference,Restricted test,0.8163881445764842
+mimic,12345,full,ecgjepa,reference,Original,0.8490940151542081
+mimic,12345,full,ecgjepa,reference,Restricted test,0.8257096117763831
+code15,12345,8000,biomecg,late,Original,0.7954991595655548
+code15,12345,8000,biomecg,late,Restricted test,0.7950462718281147
+code15,12345,8000,pclr,late,Original,0.7608250021075378
+code15,12345,8000,pclr,late,Restricted test,0.7606228360639823
+code15,12345,8000,jepa_resnet,late,Original,0.7966733591743269
+code15,12345,8000,jepa_resnet,late,Restricted test,0.7959702702605531
+code15,12345,8000,ecgcpc_local,reference,Original,0.7646366346837059
+code15,12345,8000,ecgcpc_local,reference,Restricted test,0.7642788318071181
+code15,12345,8000,ecgcpc,reference,Original,0.79568410675668
+code15,12345,8000,ecgcpc,reference,Restricted test,0.7951424467622303
+code15,12345,8000,biomecg,early,Original,0.7436453435458592
+code15,12345,8000,biomecg,early,Restricted test,0.7438742409370853
+code15,12345,8000,pclr,early,Original,0.7358556259215101
+code15,12345,8000,pclr,early,Restricted test,0.7353459061835987
+code15,12345,8000,jepa_resnet,early,Original,0.7699360168740657
+code15,12345,8000,jepa_resnet,early,Restricted test,0.7698320354211383
+code15,12345,8000,ecgfounder,reference,Original,0.7788691812602904
+code15,12345,8000,ecgfounder,reference,Restricted test,0.7781066750797263
+code15,12345,8000,ecgjepa,reference,Original,0.8006133795099157
+code15,12345,8000,ecgjepa,reference,Restricted test,0.7999950114870622
+code15,12345,full,biomecg,late,Original,0.8346709746458907
+code15,12345,full,biomecg,late,Restricted test,0.8338254433934111
+code15,12345,full,pclr,late,Original,0.7902328958256988
+code15,12345,full,pclr,late,Restricted test,0.7898083332434501
+code15,12345,full,jepa_resnet,late,Original,0.8329019332572899
+code15,12345,full,jepa_resnet,late,Restricted test,0.8320605884108306
+code15,12345,full,ecgcpc_local,reference,Original,0.8200706842357897
+code15,12345,full,ecgcpc_local,reference,Restricted test,0.8191302280514418
+code15,12345,full,ecgcpc,reference,Original,0.8347961365822102
+code15,12345,full,ecgcpc,reference,Restricted test,0.8340119508591027
+code15,12345,full,biomecg,early,Original,0.8033331784938245
+code15,12345,full,biomecg,early,Restricted test,0.8027849834075769
+code15,12345,full,pclr,early,Original,0.767765898146571
+code15,12345,full,pclr,early,Restricted test,0.7672613783036539
+code15,12345,full,jepa_resnet,early,Original,0.8217676822418007
+code15,12345,full,jepa_resnet,early,Restricted test,0.8214053944250895
+code15,12345,full,ecgfounder,reference,Original,0.8224272555385231
+code15,12345,full,ecgfounder,reference,Restricted test,0.8217869482524924
+code15,12345,full,ecgjepa,reference,Original,0.8318260137256623
+code15,12345,full,ecgjepa,reference,Restricted test,0.8310819859854245

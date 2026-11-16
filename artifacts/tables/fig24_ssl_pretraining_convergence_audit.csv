@@ -1,0 +1,5 @@
+model,epochs,best_validation_epoch
+biomECG early (8 leads),10,3
+PCLR (8 leads),50,42
+JEPA (8 leads),200,197
+ECG-CPC (12 leads),200,199

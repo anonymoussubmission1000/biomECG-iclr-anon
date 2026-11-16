@@ -1,0 +1,324 @@
+site,seed,cohort_label,n_train_patients,architecture,regime,test_patient_auc,fusion
+mimic,12345,500,500,pretrained_mimic_frozen,frozen,0.7458760701873357,Late
+mimic,12345,500,500,pretrained_mimic_finetuned,finetuned,0.7372315587797517,Late
+mimic,12345,500,500,scratch,scratch,0.6481831425157298,Late
+mimic,12345,1000,1000,pretrained_mimic_frozen,frozen,0.7744065148693717,Late
+mimic,12345,1000,1000,pretrained_mimic_finetuned,finetuned,0.7676771522922268,Late
+mimic,12345,1000,1000,scratch,scratch,0.706295590914767,Late
+mimic,12345,2000,2000,pretrained_mimic_frozen,frozen,0.7901520092132045,Late
+mimic,12345,2000,2000,pretrained_mimic_finetuned,finetuned,0.779705793618024,Late
+mimic,12345,2000,2000,scratch,scratch,0.7236135075347204,Late
+mimic,12345,4000,4000,pretrained_mimic_frozen,frozen,0.8047884189619924,Late
+mimic,12345,4000,4000,pretrained_mimic_finetuned,finetuned,0.7908506901244257,Late
+mimic,12345,4000,4000,scratch,scratch,0.7631117260539175,Late
+mimic,12345,8000,8000,pretrained_mimic_frozen,frozen,0.8238723896452624,Late
+mimic,12345,8000,8000,pretrained_mimic_finetuned,finetuned,0.7950078546486667,Late
+mimic,12345,8000,8000,scratch,scratch,0.7831177349626888,Late
+mimic,12345,16000,16000,pretrained_mimic_frozen,frozen,0.8305407288712913,Late
+mimic,12345,16000,16000,pretrained_mimic_finetuned,finetuned,0.8035287926308948,Late
+mimic,12345,16000,16000,scratch,scratch,0.804329285466234,Late
+mimic,12345,50000,50000,pretrained_mimic_frozen,frozen,0.8339325493724029,Late
+mimic,12345,50000,50000,pretrained_mimic_finetuned,finetuned,0.8252173643563472,Late
+mimic,12345,50000,50000,scratch,scratch,0.8323273025491262,Late
+mimic,12345,full,111358,pretrained_mimic_frozen,frozen,0.8353653106630902,Late
+mimic,12345,full,111358,pretrained_mimic_finetuned,finetuned,0.8395550035046269,Late
+mimic,12345,full,111358,scratch,scratch,0.8384436630052656,Late
+mimic,23451,500,500,pretrained_mimic_frozen,frozen,0.7619075744607933,Late
+mimic,23451,500,500,pretrained_mimic_finetuned,finetuned,0.7617059216804709,Late
+mimic,23451,500,500,scratch,scratch,0.6980984663496551,Late
+mimic,23451,1000,1000,pretrained_mimic_frozen,frozen,0.787540754392633,Late
+mimic,23451,1000,1000,pretrained_mimic_finetuned,finetuned,0.7750736814808942,Late
+mimic,23451,1000,1000,scratch,scratch,0.7152198458510958,Late
+mimic,23451,2000,2000,pretrained_mimic_frozen,frozen,0.7959137483468095,Late
+mimic,23451,2000,2000,pretrained_mimic_finetuned,finetuned,0.7798334800810485,Late
+mimic,23451,2000,2000,scratch,scratch,0.7376229239983556,Late
+mimic,23451,4000,4000,pretrained_mimic_frozen,frozen,0.8084713992349066,Late
+mimic,23451,4000,4000,pretrained_mimic_finetuned,finetuned,0.7892389490311461,Late
+mimic,23451,4000,4000,scratch,scratch,0.7573946150880349,Late
+mimic,23451,8000,8000,pretrained_mimic_frozen,frozen,0.8189020741559044,Late
+mimic,23451,8000,8000,pretrained_mimic_finetuned,finetuned,0.795210122675621,Late
+mimic,23451,8000,8000,scratch,scratch,0.784559257821152,Late
+mimic,23451,16000,16000,pretrained_mimic_frozen,frozen,0.827427592307503,Late
+mimic,23451,16000,16000,pretrained_mimic_finetuned,finetuned,0.8046569612649834,Late
+mimic,23451,16000,16000,scratch,scratch,0.8048839986655983,Late
+mimic,23451,50000,50000,pretrained_mimic_frozen,frozen,0.8338324578601631,Late
+mimic,23451,50000,50000,pretrained_mimic_finetuned,finetuned,0.8303382329752143,Late
+mimic,23451,50000,50000,scratch,scratch,0.8337227844513049,Late
+mimic,23451,full,111358,pretrained_mimic_frozen,frozen,0.8362451931008521,Late
+mimic,23451,full,111358,pretrained_mimic_finetuned,finetuned,0.8397737122887996,Late
+mimic,23451,full,111358,scratch,scratch,0.8397895605862983,Late
+mimic,34512,500,500,pretrained_mimic_frozen,frozen,0.7751538914121596,Late
+mimic,34512,500,500,pretrained_mimic_finetuned,finetuned,0.7666945464538552,Late
+mimic,34512,500,500,scratch,scratch,0.6657004104378642,Late
+mimic,34512,1000,1000,pretrained_mimic_frozen,frozen,0.7848043196693893,Late
+mimic,34512,1000,1000,pretrained_mimic_finetuned,finetuned,0.7740060576727635,Late
+mimic,34512,1000,1000,scratch,scratch,0.7049666126161107,Late
+mimic,34512,2000,2000,pretrained_mimic_frozen,frozen,0.7921276800826891,Late
+mimic,34512,2000,2000,pretrained_mimic_finetuned,finetuned,0.7805066168635911,Late
+mimic,34512,2000,2000,scratch,scratch,0.7259207963387813,Late
+mimic,34512,4000,4000,pretrained_mimic_frozen,frozen,0.801910705382542,Late
+mimic,34512,4000,4000,pretrained_mimic_finetuned,finetuned,0.7824983980800659,Late
+mimic,34512,4000,4000,scratch,scratch,0.7493210867351914,Late
+mimic,34512,8000,8000,pretrained_mimic_frozen,frozen,0.8223261039575398,Late
+mimic,34512,8000,8000,pretrained_mimic_finetuned,finetuned,0.7953650394988337,Late
+mimic,34512,8000,8000,scratch,scratch,0.7824322704605964,Late
+mimic,34512,16000,16000,pretrained_mimic_frozen,frozen,0.8316673935691687,Late
+mimic,34512,16000,16000,pretrained_mimic_finetuned,finetuned,0.8019457630471023,Late
+mimic,34512,16000,16000,scratch,scratch,0.8004954558339508,Late
+mimic,34512,50000,50000,pretrained_mimic_frozen,frozen,0.83360837136469,Late
+mimic,34512,50000,50000,pretrained_mimic_finetuned,finetuned,0.8274424721612291,Late
+mimic,34512,50000,50000,scratch,scratch,0.8312570696395385,Late
+mimic,34512,full,111358,pretrained_mimic_frozen,frozen,0.8366706361467879,Late
+mimic,34512,full,111358,pretrained_mimic_finetuned,finetuned,0.8390152385197257,Late
+mimic,34512,full,111358,scratch,scratch,0.8386555015353822,Late
+mimic,45123,500,500,pretrained_mimic_frozen,frozen,0.7623261928264977,Late
+mimic,45123,500,500,pretrained_mimic_finetuned,finetuned,0.75680295291039,Late
+mimic,45123,500,500,scratch,scratch,0.6914334995866455,Late
+mimic,45123,1000,1000,pretrained_mimic_frozen,frozen,0.7706955522681637,Late
+mimic,45123,1000,1000,pretrained_mimic_finetuned,finetuned,0.7640308133742769,Late
+mimic,45123,1000,1000,scratch,scratch,0.682359978981352,Late
+mimic,45123,2000,2000,pretrained_mimic_frozen,frozen,0.7777279352049592,Late
+mimic,45123,2000,2000,pretrained_mimic_finetuned,finetuned,0.7717607036963107,Late
+mimic,45123,2000,2000,scratch,scratch,0.7352495759355623,Late
+mimic,45123,4000,4000,pretrained_mimic_frozen,frozen,0.7941052992331747,Late
+mimic,45123,4000,4000,pretrained_mimic_finetuned,finetuned,0.7801051912232106,Late
+mimic,45123,4000,4000,scratch,scratch,0.7575261411457807,Late
+mimic,45123,8000,8000,pretrained_mimic_frozen,frozen,0.8113962589358876,Late
+mimic,45123,8000,8000,pretrained_mimic_finetuned,finetuned,0.7872029612048261,Late
+mimic,45123,8000,8000,scratch,scratch,0.7764271329233512,Late
+mimic,45123,16000,16000,pretrained_mimic_frozen,frozen,0.8223678495808576,Late
+mimic,45123,16000,16000,pretrained_mimic_finetuned,finetuned,0.7984744276155501,Late
+mimic,45123,16000,16000,scratch,scratch,0.7915432527496966,Late
+mimic,45123,50000,50000,pretrained_mimic_frozen,frozen,0.8290789484478012,Late
+mimic,45123,50000,50000,pretrained_mimic_finetuned,finetuned,0.8215668326465358,Late
+mimic,45123,50000,50000,scratch,scratch,0.8270583417872779,Late
+mimic,45123,full,111358,pretrained_mimic_frozen,frozen,0.8306587878638727,Late
+mimic,45123,full,111358,pretrained_mimic_finetuned,finetuned,0.8354143480983409,Late
+mimic,45123,full,111358,scratch,scratch,0.8349583250161103,Late
+mimic,51234,500,500,pretrained_mimic_frozen,frozen,0.7724675992894128,Late
+mimic,51234,500,500,pretrained_mimic_finetuned,finetuned,0.7706166184039865,Late
+mimic,51234,500,500,scratch,scratch,0.6789002990554368,Late
+mimic,51234,1000,1000,pretrained_mimic_frozen,frozen,0.7836350890193515,Late
+mimic,51234,1000,1000,pretrained_mimic_finetuned,finetuned,0.7797461606331479,Late
+mimic,51234,1000,1000,scratch,scratch,0.7098945444486069,Late
+mimic,51234,2000,2000,pretrained_mimic_frozen,frozen,0.7899092716300207,Late
+mimic,51234,2000,2000,pretrained_mimic_finetuned,finetuned,0.7799439624252931,Late
+mimic,51234,2000,2000,scratch,scratch,0.7353332039036715,Late
+mimic,51234,4000,4000,pretrained_mimic_frozen,frozen,0.8128648982199775,Late
+mimic,51234,4000,4000,pretrained_mimic_finetuned,finetuned,0.7901463922393246,Late
+mimic,51234,4000,4000,scratch,scratch,0.7612166980670317,Late
+mimic,51234,8000,8000,pretrained_mimic_frozen,frozen,0.8228403817810432,Late
+mimic,51234,8000,8000,pretrained_mimic_finetuned,finetuned,0.7971390575879963,Late
+mimic,51234,8000,8000,scratch,scratch,0.7850210345987362,Late
+mimic,51234,16000,16000,pretrained_mimic_frozen,frozen,0.8316500185485467,Late
+mimic,51234,16000,16000,pretrained_mimic_finetuned,finetuned,0.8087757754158384,Late
+mimic,51234,16000,16000,scratch,scratch,0.8122793543282829,Late
+mimic,51234,50000,50000,pretrained_mimic_frozen,frozen,0.8342589377106081,Late
+mimic,51234,50000,50000,pretrained_mimic_finetuned,finetuned,0.8318928928532039,Late
+mimic,51234,50000,50000,scratch,scratch,0.8358292749842544,Late
+mimic,51234,full,111358,pretrained_mimic_frozen,frozen,0.8363166528577978,Late
+mimic,51234,full,111358,pretrained_mimic_finetuned,finetuned,0.8429658624709582,Late
+mimic,51234,full,111358,scratch,scratch,0.839014327043234,Late
+mimic,12345,500,500,pretrained_mimic_frozen,frozen,0.694014664289536,Early
+mimic,12345,500,500,pretrained_mimic_finetuned,finetuned,0.6961270338458565,Early
+mimic,12345,500,500,scratch,scratch,0.5794688325171061,Early
+mimic,12345,1000,1000,pretrained_mimic_frozen,frozen,0.720889229629184,Early
+mimic,12345,1000,1000,pretrained_mimic_finetuned,finetuned,0.713379722929376,Early
+mimic,12345,1000,1000,scratch,scratch,0.6228410084211313,Early
+mimic,12345,2000,2000,pretrained_mimic_frozen,frozen,0.7554614304165174,Early
+mimic,12345,2000,2000,pretrained_mimic_finetuned,finetuned,0.7465429519624545,Early
+mimic,12345,2000,2000,scratch,scratch,0.680221358902072,Early
+mimic,12345,4000,4000,pretrained_mimic_frozen,frozen,0.7758633163525263,Early
+mimic,12345,4000,4000,pretrained_mimic_finetuned,finetuned,0.7709676166074664,Early
+mimic,12345,4000,4000,scratch,scratch,0.6934361843406516,Early
+mimic,12345,8000,8000,pretrained_mimic_frozen,frozen,0.7901689626759492,Early
+mimic,12345,8000,8000,pretrained_mimic_finetuned,finetuned,0.781822663589522,Early
+mimic,12345,8000,8000,scratch,scratch,0.7459113443275628,Early
+mimic,12345,16000,16000,pretrained_mimic_frozen,frozen,0.8081514595928799,Early
+mimic,12345,16000,16000,pretrained_mimic_finetuned,finetuned,0.7944095159057205,Early
+mimic,12345,16000,16000,scratch,scratch,0.7703396320916289,Early
+mimic,12345,50000,50000,pretrained_mimic_frozen,frozen,0.8226127974945334,Early
+mimic,12345,50000,50000,pretrained_mimic_finetuned,finetuned,0.8109316907615478,Early
+mimic,12345,50000,50000,scratch,scratch,0.8035726574370556,Early
+mimic,12345,full,111358,pretrained_mimic_frozen,frozen,0.8298516982174254,Early
+mimic,12345,full,111358,pretrained_mimic_finetuned,finetuned,0.8211958275340643,Early
+mimic,12345,full,111358,scratch,scratch,0.8189580046321234,Early
+mimic,23451,500,500,pretrained_mimic_frozen,frozen,0.7487866083139416,Early
+mimic,23451,500,500,pretrained_mimic_finetuned,finetuned,0.7338641430617042,Early
+mimic,23451,500,500,scratch,scratch,0.5582378789577449,Early
+mimic,23451,1000,1000,pretrained_mimic_frozen,frozen,0.7575498509280199,Early
+mimic,23451,1000,1000,pretrained_mimic_finetuned,finetuned,0.7352538598750731,Early
+mimic,23451,1000,1000,scratch,scratch,0.6182521800238989,Early
+mimic,23451,2000,2000,pretrained_mimic_frozen,frozen,0.7631992961578531,Early
+mimic,23451,2000,2000,pretrained_mimic_finetuned,finetuned,0.7575182113003032,Early
+mimic,23451,2000,2000,scratch,scratch,0.6694237919062711,Early
+mimic,23451,4000,4000,pretrained_mimic_frozen,frozen,0.773380010044471,Early
+mimic,23451,4000,4000,pretrained_mimic_finetuned,finetuned,0.7697900687344422,Early
+mimic,23451,4000,4000,scratch,scratch,0.7045641387777648,Early
+mimic,23451,8000,8000,pretrained_mimic_frozen,frozen,0.7859401674929201,Early
+mimic,23451,8000,8000,pretrained_mimic_finetuned,finetuned,0.7841552800465946,Early
+mimic,23451,8000,8000,scratch,scratch,0.74006922436085,Early
+mimic,23451,16000,16000,pretrained_mimic_frozen,frozen,0.8089735999948957,Early
+mimic,23451,16000,16000,pretrained_mimic_finetuned,finetuned,0.7908758582690515,Early
+mimic,23451,16000,16000,scratch,scratch,0.7661314704576796,Early
+mimic,23451,50000,50000,pretrained_mimic_frozen,frozen,0.8226284634967337,Early
+mimic,23451,50000,50000,pretrained_mimic_finetuned,finetuned,0.8089563503022912,Early
+mimic,23451,50000,50000,scratch,scratch,0.8021108884070216,Early
+mimic,23451,full,111358,pretrained_mimic_frozen,frozen,0.8287599316757222,Early
+mimic,23451,full,111358,pretrained_mimic_finetuned,finetuned,0.8252691704014417,Early
+mimic,23451,full,111358,scratch,scratch,0.8252673474484583,Early
+mimic,34512,500,500,pretrained_mimic_frozen,frozen,0.7288164773985732,Early
+mimic,34512,500,500,pretrained_mimic_finetuned,finetuned,0.7298313836851177,Early
+mimic,34512,500,500,scratch,scratch,0.6294771839204609,Early
+mimic,34512,1000,1000,pretrained_mimic_frozen,frozen,0.7446139714762546,Early
+mimic,34512,1000,1000,pretrained_mimic_finetuned,finetuned,0.7397744300765368,Early
+mimic,34512,1000,1000,scratch,scratch,0.6572561390220404,Early
+mimic,34512,2000,2000,pretrained_mimic_frozen,frozen,0.7526037465329714,Early
+mimic,34512,2000,2000,pretrained_mimic_finetuned,finetuned,0.7610223029182743,Early
+mimic,34512,2000,2000,scratch,scratch,0.6606809207917813,Early
+mimic,34512,4000,4000,pretrained_mimic_frozen,frozen,0.7612453184288698,Early
+mimic,34512,4000,4000,pretrained_mimic_finetuned,finetuned,0.7648539564004334,Early
+mimic,34512,4000,4000,scratch,scratch,0.6976018369897212,Early
+mimic,34512,8000,8000,pretrained_mimic_frozen,frozen,0.7783901000892336,Early
+mimic,34512,8000,8000,pretrained_mimic_finetuned,finetuned,0.7752415526637445,Early
+mimic,34512,8000,8000,scratch,scratch,0.7222504741956448,Early
+mimic,34512,16000,16000,pretrained_mimic_frozen,frozen,0.8017050876794811,Early
+mimic,34512,16000,16000,pretrained_mimic_finetuned,finetuned,0.7863833729369869,Early
+mimic,34512,16000,16000,scratch,scratch,0.7693985440074523,Early
+mimic,34512,50000,50000,pretrained_mimic_frozen,frozen,0.8204738583984812,Early
+mimic,34512,50000,50000,pretrained_mimic_finetuned,finetuned,0.8076094045232932,Early
+mimic,34512,50000,50000,scratch,scratch,0.7988326720571387,Early
+mimic,34512,full,111358,pretrained_mimic_frozen,frozen,0.8280245866226241,Early
+mimic,34512,full,111358,pretrained_mimic_finetuned,finetuned,0.8271548785412001,Early
+mimic,34512,full,111358,scratch,scratch,0.8280888912891103,Early
+mimic,45123,500,500,pretrained_mimic_frozen,frozen,0.7284319710405689,Early
+mimic,45123,500,500,pretrained_mimic_finetuned,finetuned,0.7143042677152293,Early
+mimic,45123,500,500,scratch,scratch,0.691005025881375,Early
+mimic,45123,1000,1000,pretrained_mimic_frozen,frozen,0.7458458661350935,Early
+mimic,45123,1000,1000,pretrained_mimic_finetuned,finetuned,0.7368205284558403,Early
+mimic,45123,1000,1000,scratch,scratch,0.6481478228016783,Early
+mimic,45123,2000,2000,pretrained_mimic_frozen,frozen,0.7619599273917826,Early
+mimic,45123,2000,2000,pretrained_mimic_finetuned,finetuned,0.7565727709158789,Early
+mimic,45123,2000,2000,scratch,scratch,0.6652259869239583,Early
+mimic,45123,4000,4000,pretrained_mimic_frozen,frozen,0.7646607119907467,Early
+mimic,45123,4000,4000,pretrained_mimic_finetuned,finetuned,0.7674188512479481,Early
+mimic,45123,4000,4000,scratch,scratch,0.6969106073988192,Early
+mimic,45123,8000,8000,pretrained_mimic_frozen,frozen,0.7838783279146055,Early
+mimic,45123,8000,8000,pretrained_mimic_finetuned,finetuned,0.7763098031119631,Early
+mimic,45123,8000,8000,scratch,scratch,0.7317929494558941,Early
+mimic,45123,16000,16000,pretrained_mimic_frozen,frozen,0.804050236938314,Early
+mimic,45123,16000,16000,pretrained_mimic_finetuned,finetuned,0.7879187550871782,Early
+mimic,45123,16000,16000,scratch,scratch,0.7583154911810093,Early
+mimic,45123,50000,50000,pretrained_mimic_frozen,frozen,0.8196885872205527,Early
+mimic,45123,50000,50000,pretrained_mimic_finetuned,finetuned,0.8024748979374199,Early
+mimic,45123,50000,50000,scratch,scratch,0.7940348079200016,Early
+mimic,45123,full,111358,pretrained_mimic_frozen,frozen,0.8257669049266215,Early
+mimic,45123,full,111358,pretrained_mimic_finetuned,finetuned,0.818631821376129,Early
+mimic,45123,full,111358,scratch,scratch,0.8209969661504976,Early
+mimic,51234,500,500,pretrained_mimic_frozen,frozen,0.7397014549899237,Early
+mimic,51234,500,500,pretrained_mimic_finetuned,finetuned,0.7242746242210294,Early
+mimic,51234,500,500,scratch,scratch,0.6361457965894373,Early
+mimic,51234,1000,1000,pretrained_mimic_frozen,frozen,0.7519984463883199,Early
+mimic,51234,1000,1000,pretrained_mimic_finetuned,finetuned,0.7490962824519811,Early
+mimic,51234,1000,1000,scratch,scratch,0.6620011147357493,Early
+mimic,51234,2000,2000,pretrained_mimic_frozen,frozen,0.7564971297605277,Early
+mimic,51234,2000,2000,pretrained_mimic_finetuned,finetuned,0.7565317544737544,Early
+mimic,51234,2000,2000,scratch,scratch,0.6925163108718181,Early
+mimic,51234,4000,4000,pretrained_mimic_frozen,frozen,0.7689130802345412,Early
+mimic,51234,4000,4000,pretrained_mimic_finetuned,finetuned,0.7720163272783951,Early
+mimic,51234,4000,4000,scratch,scratch,0.7034656273100233,Early
+mimic,51234,8000,8000,pretrained_mimic_frozen,frozen,0.7884463176805475,Early
+mimic,51234,8000,8000,pretrained_mimic_finetuned,finetuned,0.784938819419189,Early
+mimic,51234,8000,8000,scratch,scratch,0.7341124292580309,Early
+mimic,51234,16000,16000,pretrained_mimic_frozen,frozen,0.802292283622317,Early
+mimic,51234,16000,16000,pretrained_mimic_finetuned,finetuned,0.7959329577138711,Early
+mimic,51234,16000,16000,scratch,scratch,0.7725820921302209,Early
+mimic,51234,50000,50000,pretrained_mimic_frozen,frozen,0.8204696542131633,Early
+mimic,51234,50000,50000,pretrained_mimic_finetuned,finetuned,0.809169225636917,Early
+mimic,51234,50000,50000,scratch,scratch,0.8051555502993745,Early
+mimic,51234,full,111358,pretrained_mimic_frozen,frozen,0.8272569411213531,Early
+mimic,51234,full,111358,pretrained_mimic_finetuned,finetuned,0.8258886212186259,Early
+mimic,51234,full,111358,scratch,scratch,0.8263651867022872,Early
+mimic,12345,500,500,pretrained_mimic_frozen,frozen,0.7195011078996756,Early ×8
+mimic,12345,500,500,pretrained_mimic_finetuned,finetuned,0.7105916872432484,Early ×8
+mimic,12345,1000,1000,pretrained_mimic_frozen,frozen,0.7539521164939875,Early ×8
+mimic,12345,1000,1000,pretrained_mimic_finetuned,finetuned,0.7334826787564909,Early ×8
+mimic,12345,2000,2000,pretrained_mimic_frozen,frozen,0.7745206089392146,Early ×8
+mimic,12345,2000,2000,pretrained_mimic_finetuned,finetuned,0.7637394257333512,Early ×8
+mimic,12345,4000,4000,pretrained_mimic_frozen,frozen,0.7952126292359729,Early ×8
+mimic,12345,4000,4000,pretrained_mimic_finetuned,finetuned,0.7833217461884331,Early ×8
+mimic,12345,8000,8000,pretrained_mimic_frozen,frozen,0.8093740571915039,Early ×8
+mimic,12345,8000,8000,pretrained_mimic_finetuned,finetuned,0.7981909698201017,Early ×8
+mimic,12345,16000,16000,pretrained_mimic_frozen,frozen,0.8271157875931644,Early ×8
+mimic,12345,16000,16000,pretrained_mimic_finetuned,finetuned,0.8062553378342043,Early ×8
+mimic,12345,50000,50000,pretrained_mimic_frozen,frozen,0.8341066413823089,Early ×8
+mimic,12345,50000,50000,pretrained_mimic_finetuned,finetuned,0.8208528617171669,Early ×8
+mimic,12345,full,111358,pretrained_mimic_frozen,frozen,0.8365845699790635,Early ×8
+mimic,12345,full,111358,pretrained_mimic_finetuned,finetuned,0.8340025507669618,Early ×8
+mimic,23451,500,500,pretrained_mimic_frozen,frozen,0.7561659675641976,Early ×8
+mimic,23451,500,500,pretrained_mimic_finetuned,finetuned,0.742265939673017,Early ×8
+mimic,23451,1000,1000,pretrained_mimic_frozen,frozen,0.7688955912793575,Early ×8
+mimic,23451,1000,1000,pretrained_mimic_finetuned,finetuned,0.7486669770244121,Early ×8
+mimic,23451,2000,2000,pretrained_mimic_frozen,frozen,0.779022231823108,Early ×8
+mimic,23451,2000,2000,pretrained_mimic_finetuned,finetuned,0.7635081841474186,Early ×8
+mimic,23451,4000,4000,pretrained_mimic_frozen,frozen,0.7952896376060618,Early ×8
+mimic,23451,4000,4000,pretrained_mimic_finetuned,finetuned,0.7757392985823807,Early ×8
+mimic,23451,8000,8000,pretrained_mimic_frozen,frozen,0.8058353408603062,Early ×8
+mimic,23451,8000,8000,pretrained_mimic_finetuned,finetuned,0.7900492060584019,Early ×8
+mimic,23451,16000,16000,pretrained_mimic_frozen,frozen,0.8224842109484732,Early ×8
+mimic,23451,16000,16000,pretrained_mimic_finetuned,finetuned,0.8009342861908577,Early ×8
+mimic,23451,50000,50000,pretrained_mimic_frozen,frozen,0.8323987964864406,Early ×8
+mimic,23451,50000,50000,pretrained_mimic_finetuned,finetuned,0.8189911026222267,Early ×8
+mimic,23451,full,111358,pretrained_mimic_frozen,frozen,0.8368639147368431,Early ×8
+mimic,23451,full,111358,pretrained_mimic_finetuned,finetuned,0.8349627570705509,Early ×8
+mimic,34512,500,500,pretrained_mimic_frozen,frozen,0.768674284787184,Early ×8
+mimic,34512,500,500,pretrained_mimic_finetuned,finetuned,0.7578391877468392,Early ×8
+mimic,34512,1000,1000,pretrained_mimic_frozen,frozen,0.7766479722838229,Early ×8
+mimic,34512,1000,1000,pretrained_mimic_finetuned,finetuned,0.7617878748105268,Early ×8
+mimic,34512,2000,2000,pretrained_mimic_frozen,frozen,0.7842912495522372,Early ×8
+mimic,34512,2000,2000,pretrained_mimic_finetuned,finetuned,0.7739940717568983,Early ×8
+mimic,34512,4000,4000,pretrained_mimic_frozen,frozen,0.7910965609080494,Early ×8
+mimic,34512,4000,4000,pretrained_mimic_finetuned,finetuned,0.784831048717507,Early ×8
+mimic,34512,8000,8000,pretrained_mimic_frozen,frozen,0.8044821058935158,Early ×8
+mimic,34512,8000,8000,pretrained_mimic_finetuned,finetuned,0.7954562896891045,Early ×8
+mimic,34512,16000,16000,pretrained_mimic_frozen,frozen,0.8231354039344795,Early ×8
+mimic,34512,16000,16000,pretrained_mimic_finetuned,finetuned,0.7999922752367334,Early ×8
+mimic,34512,50000,50000,pretrained_mimic_frozen,frozen,0.8351037852707223,Early ×8
+mimic,34512,50000,50000,pretrained_mimic_finetuned,finetuned,0.8208786451084247,Early ×8
+mimic,34512,full,111358,pretrained_mimic_frozen,frozen,0.8384463746478283,Early ×8
+mimic,34512,full,111358,pretrained_mimic_finetuned,finetuned,0.8392198422051897,Early ×8
+mimic,45123,500,500,pretrained_mimic_frozen,frozen,0.7498276056150597,Early ×8
+mimic,45123,500,500,pretrained_mimic_finetuned,finetuned,0.7322226308675159,Early ×8
+mimic,45123,1000,1000,pretrained_mimic_frozen,frozen,0.7684474182884111,Early ×8
+mimic,45123,1000,1000,pretrained_mimic_finetuned,finetuned,0.7531914323944214,Early ×8
+mimic,45123,2000,2000,pretrained_mimic_frozen,frozen,0.77521759222547,Early ×8
+mimic,45123,2000,2000,pretrained_mimic_finetuned,finetuned,0.7664082858681951,Early ×8
+mimic,45123,4000,4000,pretrained_mimic_frozen,frozen,0.7857910613323417,Early ×8
+mimic,45123,4000,4000,pretrained_mimic_finetuned,finetuned,0.777131339660803,Early ×8
+mimic,45123,8000,8000,pretrained_mimic_frozen,frozen,0.8035448118302356,Early ×8
+mimic,45123,8000,8000,pretrained_mimic_finetuned,finetuned,0.789640260736965,Early ×8
+mimic,45123,16000,16000,pretrained_mimic_frozen,frozen,0.8156979380578806,Early ×8
+mimic,45123,16000,16000,pretrained_mimic_finetuned,finetuned,0.7967980856259245,Early ×8
+mimic,45123,50000,50000,pretrained_mimic_frozen,frozen,0.829210326390617,Early ×8
+mimic,45123,50000,50000,pretrained_mimic_finetuned,finetuned,0.8154538104730472,Early ×8
+mimic,45123,full,111358,pretrained_mimic_frozen,frozen,0.832371315470217,Early ×8
+mimic,45123,full,111358,pretrained_mimic_finetuned,finetuned,0.8309798896384263,Early ×8
+mimic,51234,500,500,pretrained_mimic_frozen,frozen,0.7616193086268516,Early ×8
+mimic,51234,500,500,pretrained_mimic_finetuned,finetuned,0.7432440109158424,Early ×8
+mimic,51234,1000,1000,pretrained_mimic_frozen,frozen,0.7687116097495171,Early ×8
+mimic,51234,1000,1000,pretrained_mimic_finetuned,finetuned,0.7577183601444144,Early ×8
+mimic,51234,2000,2000,pretrained_mimic_frozen,frozen,0.7803648480887705,Early ×8
+mimic,51234,2000,2000,pretrained_mimic_finetuned,finetuned,0.7634109523926713,Early ×8
+mimic,51234,4000,4000,pretrained_mimic_frozen,frozen,0.7950666562758346,Early ×8
+mimic,51234,4000,4000,pretrained_mimic_finetuned,finetuned,0.781191659807806,Early ×8
+mimic,51234,8000,8000,pretrained_mimic_frozen,frozen,0.8111473688863853,Early ×8
+mimic,51234,8000,8000,pretrained_mimic_finetuned,finetuned,0.7920938073375681,Early ×8
+mimic,51234,16000,16000,pretrained_mimic_frozen,frozen,0.8262342303173489,Early ×8
+mimic,51234,16000,16000,pretrained_mimic_finetuned,finetuned,0.8045122529784774,Early ×8
+mimic,51234,50000,50000,pretrained_mimic_frozen,frozen,0.8357487916100412,Early ×8
+mimic,51234,50000,50000,pretrained_mimic_finetuned,finetuned,0.8236237046779709,Early ×8
+mimic,51234,full,111358,pretrained_mimic_frozen,frozen,0.8381482192939521,Early ×8
+mimic,51234,full,111358,pretrained_mimic_finetuned,finetuned,0.8357182685410269,Early ×8
+mimic,23451,2000,2000,scratch,scratch,0.7254469538911387,Early ×8
+mimic,23451,8000,8000,scratch,scratch,0.758598288156001,Early ×8
+mimic,23451,full,111358,scratch,scratch,0.8385076486549798,Early ×8

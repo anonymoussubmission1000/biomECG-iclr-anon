@@ -1,0 +1,3 @@
+# The project ignores data directories; these are upstream Python source files.
+!code/clinical_ts/data/
+!code/clinical_ts/data/*.py

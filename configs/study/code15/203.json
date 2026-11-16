@@ -1,0 +1,68 @@
+{
+  "preproc": {
+    "quality_thresh": 0.8,
+    "w": 5000,
+    "sampling_rate": 500
+  },
+  "checkpoint": {},
+  "debugging": false,
+  "description": "",
+  "dir_input": {
+    "local": {
+      "CODE15": {
+        "ecg": "data/code15/processed/ecg.h5",
+        "labels": "data/code15/processed/labels.csv"
+      }
+    }
+  },
+  "log": {},
+  "name": "CODE15_0203_V2",
+  "network": "SiameseResNet1d",
+  "DB": "CODE15",
+  "nstrips": 6,
+  "phase": "train",
+  "results": {
+    "dir": "results/"
+  },
+  "run_from": "local",
+  "seed": 12345,
+  "architecture": {
+    "cosine_embedding": false,
+    "leads": [
+      "V2"
+    ],
+    "fix_feature_dim": true,
+    "kernel_size": 3,
+    "embedding_dim": 256,
+    "dilation_rate": 1
+  },
+  "training": {
+    "batch_size": 256,
+    "device": "cuda",
+    "dropout_p": 0.11,
+    "learning_rate": 0.00029,
+    "n_epoch": 15,
+    "num_workers": 2,
+    "pin_memory": true,
+    "patience": 7,
+    "rate_validation": 0.2,
+    "resume": false,
+    "npairings": 1
+  },
+  "inference": {
+    "nbeats_averaging": 1
+  },
+  "verbose": true,
+  "hp": {
+    "activated": false,
+    "hp_search": {
+      "n_trials": 50
+    }
+  },
+  "biometrics": {
+    "n_train_val": 1359,
+    "n_test": 292,
+    "split_path": "outputs/downstream/code15/seed{seed}/splits/horizon365d/split.npz",
+    "manifest_path": "outputs/cohorts/code15/seed{seed}/biometric_cohort.json"
+  }
+}

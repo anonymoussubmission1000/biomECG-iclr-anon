@@ -1,0 +1,41 @@
+site,cohort_label,family,variant,condition,mean,sd,n,rank
+code15,8000,biomecg,late,Original,0.7954991595655548,,1,3
+code15,8000,biomecg,late,Uncensored refit,0.7874623839159556,,1,3
+code15,8000,ecgcpc,reference,Original,0.79568410675668,,1,2
+code15,8000,ecgcpc,reference,Uncensored refit,0.7946943794289906,,1,1
+code15,8000,ecgcpc_local,reference,Original,0.7753126037639764,0.0150981002647944,2,4
+code15,8000,ecgcpc_local,reference,Uncensored refit,0.768605130536413,0.0143330475257599,2,4
+code15,8000,jepa_resnet,late,Original,0.7966733591743269,,1,1
+code15,8000,jepa_resnet,late,Uncensored refit,0.7919089016642759,,1,2
+code15,8000,pclr,late,Original,0.7608250021075378,,1,5
+code15,8000,pclr,late,Uncensored refit,0.7578436501173874,,1,5
+code15,full,biomecg,late,Original,0.8346709746458907,,1,2
+code15,full,biomecg,late,Uncensored refit,0.8354368229554288,,1,2
+code15,full,ecgcpc,reference,Original,0.8347961365822102,,1,1
+code15,full,ecgcpc,reference,Uncensored refit,0.8382611751678117,,1,1
+code15,full,ecgcpc_local,reference,Original,0.8281381452291366,0.0114091127507072,2,4
+code15,full,ecgcpc_local,reference,Uncensored refit,0.8231745702275,0.0175014351710321,2,4
+code15,full,jepa_resnet,late,Original,0.8329019332572899,,1,3
+code15,full,jepa_resnet,late,Uncensored refit,0.8350613362383558,,1,3
+code15,full,pclr,late,Original,0.7902328958256988,,1,5
+code15,full,pclr,late,Uncensored refit,0.7954538917591565,,1,5
+mimic,8000,biomecg,late,Original,0.8213872319005835,0.0035145437871616,2,4
+mimic,8000,biomecg,late,Uncensored refit,0.7892203037733556,0.0022443839757514,2,4
+mimic,8000,ecgcpc,reference,Original,0.8345495392030597,,1,1
+mimic,8000,ecgcpc,reference,Uncensored refit,0.8104331681808694,,1,1
+mimic,8000,ecgcpc_local,reference,Original,0.8311431179878974,0.0024016823968451,2,2
+mimic,8000,ecgcpc_local,reference,Uncensored refit,0.8039831842099459,9.673749347203256e-05,2,2
+mimic,8000,jepa_resnet,late,Original,0.8278220907265471,,1,3
+mimic,8000,jepa_resnet,late,Uncensored refit,0.8009929692617247,,1,3
+mimic,8000,pclr,late,Original,0.7867213028462676,0.0029618673697907,2,5
+mimic,8000,pclr,late,Uncensored refit,0.7596022378480192,0.0037900872275677,2,5
+mimic,full,biomecg,late,Original,0.8358052518819712,0.0006221708383883,2,3
+mimic,full,biomecg,late,Uncensored refit,0.809799880146933,0.000930120770735,2,4
+mimic,full,ecgcpc,reference,Original,0.8531554860402817,,1,1
+mimic,full,ecgcpc,reference,Uncensored refit,0.8285187825675813,,1,1
+mimic,full,ecgcpc_local,reference,Original,0.850371272858691,0.0020809091685537,2,2
+mimic,full,ecgcpc_local,reference,Uncensored refit,0.8268436075710442,0.0034108142680981,2,2
+mimic,full,jepa_resnet,late,Original,0.8347644653597917,,1,4
+mimic,full,jepa_resnet,late,Uncensored refit,0.8098035704833687,,1,3
+mimic,full,pclr,late,Original,0.8340102071694917,0.0013356689149705,2,5
+mimic,full,pclr,late,Uncensored refit,0.8081351661292715,0.0007689454077312,2,5

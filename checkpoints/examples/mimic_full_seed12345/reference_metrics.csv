@@ -1,2 +1,0 @@
-architecture,model,n,test_auc,test_pr_auc,test_tn,test_fp,test_fn,test_tp
-finetuned,early_fusion,23863,0.8261576662920498,0.3195579168426832,16294,5561,507,1501
